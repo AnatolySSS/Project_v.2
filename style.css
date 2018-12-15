@@ -1,0 +1,58 @@
+body {
+  background-color: rgba(104, 120, 201, 0.76)
+}
+
+#frame {
+  border: 2px solid black;
+  border-radius: 15px;
+  border-color: rgba(24, 24, 24, 0.66);
+  height: 700px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background-color: rgb(255, 255, 255)
+}
+
+#circle {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 0px solid black;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: black;
+}
+
+#picture {
+  width:100%;
+  height: 100%;
+}
+
+#count {
+  border: 2px solid black;
+  border-radius: 15px;
+  border-color: rgba(24, 24, 24, 0.66);
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 250px;
+  right: 250px;
+}
+
+#number {
+  text-align: center;
+  font-size: 30px;
+}
+
+.seconds {
+  border: 2px solid black;
+  border-radius: 15px;
+  border-color: rgba(24, 24, 24, 0.66);
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 250px;
+  left: 250px;
+}
